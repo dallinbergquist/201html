@@ -1,4 +1,8 @@
 
+body{
+	background-color: #111;
+}
+
 #ulHeader{
 	list-style-type: none;
 	margin: 0;
@@ -25,4 +29,7 @@ li a{
 
 .liHeader:hover{
 		background-color: #111;
+}
+#active{
+	background-color:#06F;
 }
