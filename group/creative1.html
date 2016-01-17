@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+CTYPE html>
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="creative1.css">
@@ -21,10 +21,6 @@ function makeCells(){
     var b = document.board;
     cells = new Array(b.c1,b.c2,b.c3,b.c4,b.c5,b.c6,b.c7,b.c8,b.c9)
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function loadStats(){
     var cookie = getCookie('tictactoeStats');
     if (cookie != null && cookie.length > 1){
@@ -42,10 +38,6 @@ function loadStats(){
         }
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function nextTurn(){
     turn = -turn;
     if (turn == 1){
@@ -60,10 +52,6 @@ function nextTurn(){
         if(document.board.p2.selectedIndex == 4) perfectMove();
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function getLegalMoves(state){
     var moves = 0;
     for (var i=0; i<9; i++){
@@ -73,10 +61,6 @@ function getLegalMoves(state){
     }
     return moves;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function moveRandom(moves){
     var numMoves = 0;
     for (var i=0; i<9; i++){
@@ -94,10 +78,6 @@ function moveRandom(moves){
         }
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function openingBook(state){
     var mask = state & 0x2AAAA;	
     if (mask == 0x00000) return 0x1FF;
@@ -112,10 +92,6 @@ function openingBook(state){
     if (mask == 0x08000) return 0x152;
     return 0;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function perfectMove(){
     var state = getState();
     var winner = detectWin(state);
@@ -140,10 +116,6 @@ function perfectMove(){
         moveRandom(goodMoves);
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function moveValue(istate, move, moveFor, nextTurn, limit, depth){
     var state = stateMove(istate, move, nextTurn);
     var winner = detectWin(state);
@@ -171,29 +143,17 @@ function moveValue(istate, move, moveFor, nextTurn, limit, depth){
     }
     return hope;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function detectWinMove(state, cellNum, nextTurn){
     var value = 0x3;
     if (nextTurn == -1) value = 0x2;
     var newState = state | (value << cellNum*2);
     return detectWin(newState);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function beginnerMove(){
     var state = getState();
     var winner = detectWin(state);
     if (winner == 0) moveRandom(getLegalMoves(state));
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function getGoodMove(state){
 	var moves = getLegalMoves(state);
     for (var i=0; i<9; i++){
@@ -214,11 +174,6 @@ function getGoodMove(state){
     }
     return moves;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function intermediateMove(){
     var state = getState();
     var winner = detectWin(state);
@@ -226,10 +181,6 @@ function intermediateMove(){
         moveRandom(getGoodMove(state));
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function experiencedMove(){
     var state = getState();
     var winner = detectWin(state);
@@ -240,10 +191,6 @@ function experiencedMove(){
         moveRandom(moves);
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function getState(){
     var state = 0;
     for (var i=0; i<9; i++){
@@ -255,10 +202,6 @@ function getState(){
     }
     return state;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function detectWin(state){
     if ((state & 0x3F000) == 0x3F000) return 0x13F000;
     if ((state & 0x3F000) == 0x2A000) return 0x22A000;
@@ -279,10 +222,6 @@ function detectWin(state){
     if ((state & 0x2AAAA) == 0x2AAAA) return 0x300000;
     return 0;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function recordWin(winner){
     if ((winner & 0x300000) == 0x100000){
         xWon++;
@@ -293,10 +232,6 @@ function recordWin(winner){
     }
     drawStats();
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function drawStats(){
     var b = document.board;
 	var totalGames = xWon + oWon + catsGame;
@@ -316,20 +251,12 @@ function drawStats(){
         '; expires=' + expires.toGMTString()
     );
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function clearStats(){
 	xWon = 0;
     oWon = 0;
     catsGame = 0;
     drawStats();
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function drawState(state){
     var winner = detectWin(state);
     if ((winner & 0x300000) != 0){
@@ -359,29 +286,17 @@ function drawState(state){
             }
         } else {
             if (cells[i].style){
-<<<<<<< HEAD
                 cells[i].style.backgroundColor='#06F';
-=======
-                cells[i].style.backgroundColor='red';
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
             }
         }
         cells[i].value = value;
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function stateMove(state, move, nextTurn){
     var value = 0x3;
     if (nextTurn == -1) value = 0x2;
     return (state | (value << (move*2)));
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function move(cell){
     if (cell.value == ''){
         var state = getState();
@@ -406,10 +321,6 @@ function countMoves(state){
     }
     return count;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function newGame(){
     var state = getState();
     var winner = detectWin(state);
@@ -426,10 +337,6 @@ function newGame(){
     }
     nextTurn();
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
 function getCookie(name) {
   var prefix = name + "=";
   var begin = document.cookie.indexOf("; " + prefix);
@@ -451,11 +358,7 @@ body {
  font-family:Tahoma,Verdana,Helvetica,Arial,sans-serif;
 }
 .cell {
-<<<<<<< HEAD
  background-color:#06F;
-=======
- background-color:red;
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
  color:white;
  font-size:2cm;
  font-family:Courier New,Courier,monospaced;
@@ -467,19 +370,11 @@ input.cell {
  vertical-align:bottom;
 }
 td.cell {
-<<<<<<< HEAD
  border:thick #06F outset;
 }
 .board {
  border:thin black ridge;
  background-color:#06F;
-=======
- border:thick red outset;
-}
-.board {
- border:thin black ridge;
- background-color:red;
->>>>>>> 3f6ab306afa0adfbc05136e1c4f7f17615ef346e
  margin-right:1cm;
 }
 .winstat {
@@ -568,4 +463,5 @@ td.cell {
 </form>
 
 	</body>
-</html>
+</html>	
+
