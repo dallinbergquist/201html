@@ -1,6 +1,7 @@
 
 body{
 	background-color: #111;
+	margin: 80px 0px;
 }
 
 #ulHeader{
@@ -30,6 +31,18 @@ li a{
 .liHeader:hover{
 		background-color: #111;
 }
+
 #active{
 	background-color:#06F;
+}
+
+.vidtitle{
+	font-family: "Segoe UI", arial, sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.video{
+	text-align: center;
+	margin: 0 auto;
 }
