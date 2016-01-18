@@ -1,134 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="stylesheet" href="creative1.css">
-		<meta charset="utf-8">
-		<title>Strategy</title>
-	</head>
-	<body>
-		<div id="header">
-			<ul id="ulHeader">
-				<li class="liHeader"><a href="http://ec2-52-32-81-230.us-west-2.compute.amazonaws.com/201/group/creative1">Home</a></li>
-				<li class="liHeader"><a href="http://ec2-52-32-81-230.us-west-2.compute.amazonaws.com/201/group/creative1vids">Videos</a></li>
-				<li class="liHeader" id="active"><a href="http://ec2-52-32-81-230.us-west-2.compute.amazonaws.com/201/group/creative1strategy">Strategy</a></li>
-			</ul>
-		</div>
-		<br>
-<p><strong>Remember that there are two basis starting points from which we can plot our strategy - You go first, or your opponent goes first.</strong></p>
 
-<p>But let's review some basic definitions here.</p>
+<head>
+    <link rel="stylesheet" href="creative1.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
 
-                  
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Tic-Tac-Toe</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="creative1.html">Game</a></li>
+                <li><a href="creative1vids.html">Videos</a></li>
+                <li class="active"><a href="creative1strategy.html">Strategy</a></li>
 
-<ul>
-<li>Counter-Attack - Making a move that blocks your opponent</li>
-<li>Center - The square in the middle surrounded by all the other squares.</li>
-<li>Edge - A piece bordering the center.</li>
-<li>Corner - A piece bordered by two edge squares.</li>
+            </ul>
+        </div>
+    </nav>
 
-</ul>
-<br>
-<br>
-Ok - Good! We've got some basic vocabulary down. Now let's get going.
-<br>
-<br>
-<br>
-<br>
+    <div class="container">
 
-<p><strong>IF YOU GO FIRST...</strong></p>
-<br>
+        <br>
+        <p><strong>Remember that there are two basis starting points from which we can plot our strategy - You go first, or your opponent goes first.</strong></p>
 
-<p>Avoid placing your first piece on an edge square, and keep it on the center or a corner square. Placing it on an edge square will leave you vulnerable and give your opponent the advantage. </p>
-<br>
-<p><strong>1) Center</strong></p>
-<br>
-<p>If you mark the center, your opponent will either place his/her first piece on an edge or corner piece. </p>
-<ul>
-<li>If they mark an <strong>edge</strong>, it's incredibly easy to win - There's no chance of even tying. Simply place your next piece on one of the two corners furthest from the edge piece. They will most likely block that move, which in turn gives them an opportunity to win. Block their move, and suddenly, you have two ways to win, and your opponent is helpless.</li>
-
-<br>
-<br>
-<li>If they mark a <strong>corner</strong>, as a smarter opponent would, it's a little bit more complicated. Place your next mark on the opposite corner, or the corner that would make a diagonal of two X's and one O. If they place their next piece on an edge, they've made a mistake, and you now have two ways of winning, depending on which edge they placed their O on. Otherwise, assuming you keep counter-attacking, the game will end in a tie.</li>
-</ul>
-<br>
-<br>
+        <p>But let's review some basic definitions here.</p>
 
 
-<p><strong>2) Corner</strong></p>
-<br>
-<p>If you play a corner piece first, there are only two significant response that your opponent can make: Center, or not center.</p>
-<br>
-<ul>
-<li>If their first move is <strong>away from the center</strong>, you should be able to win. Remember that your first piece is contained in both a vertical and horizontal row. Your next move should be in the other corner of the same row you placed your first piece. They'll likely counter-attack, leaving two options for you, and an easy path to victory. This will work whether they play a corner or an edge piece first up.</li>
-</ul>
-<br>
-<br>
 
-<p>Here's another great way to trap your opponent:</p>
-<br>
-<br>
-<ul>
-<li>If their first move is in the <strong>center</strong>, it's a little bit trickier. Again, form a diagonal. If their next move is in the corner, you can trap them by placing your next piece at the intersection of the row and column of the previous two X's. If their next move is at an edge, you'll be forced to settle for a draw.</li>
-</ul>
+        <ul>
+            <li>Counter-Attack - Making a move that blocks your opponent</li>
+            <li>Center - The square in the middle surrounded by all the other squares.</li>
+            <li>Edge - A piece bordering the center.</li>
+            <li>Corner - A piece bordered by two edge squares.</li>
 
-<br>
-<br>
-<br>
-<br>
+        </ul>
+        <br>
+        <br> Ok - Good! We've got some basic vocabulary down. Now let's get going.
+        <br>
+        <br>
+        <br>
+        <br>
 
-<p><strong>IF YOUR OPPONENT GOES FIRST...</strong></p>
-<br>
-<br>
+        <p><strong>IF YOU GO FIRST...</strong></p>
+        <br>
 
-<p>Unfortunately, if your opponent goes first and uses all the above techniques, there's no way that you can win. In fact, the only way you can win is if <strong>his/her first move is an edge piece.</strong> If so, carry out all the steps shown above.</p>
-<br>
-<br>
-<p>So what can you do to at least bring the match to a draw, given that your opponent plays a good strategy?</p>
-<br>
-<br>
-<p>Remember what we said before - Your opponent will either choose a corner or the center piece.</p>
-<br>
-<br>
+        <p>Avoid placing your first piece on an edge square, and keep it on the center or a corner square. Placing it on an edge square will leave you vulnerable and give your opponent the advantage. </p>
+        <br>
+        <p><strong>1) Center</strong></p>
+        <br>
+        <p>If you mark the center, your opponent will either place his/her first piece on an edge or corner piece. </p>
+        <ul>
+            <li>If they mark an <strong>edge</strong>, it's incredibly easy to win - There's no chance of even tying. Simply place your next piece on one of the two corners furthest from the edge piece. They will most likely block that move, which in turn gives them an opportunity to win. Block their move, and suddenly, you have two ways to win, and your opponent is helpless.</li>
 
-<p><strong>1) Center</strong></p>
-<br>
-<br>
-<p>If he chooses the center, place your O on the corner immediately, which will buy you some time. According to the best strategy, your opponent will place his next X on the opposite corner to yours. <em>Your next piece should not be bordering your previous move.</em> Then, it's the simple matter of continuously blocking and counter-attacking until a tie is reached.</p>
-<br>
-<br>
-
-<p>Even if they don't use this strategy, keep blocking until you reach a tie.</p>
-<br>
-<br>
-<p><strong>2) Corner</strong></p>
-<br>
-<br>
-<p>If they mark a corner, mark the center, or you will almost certainly lose against a good opponent. Then remember that there is one outcome in which a tie is possible from above.</p> 
-<br>
-<br>
-<p>Your opponent has two choices, to either form a diagonal or place their next piece somewhere else. Assuming that their move forms a diagonal, as the strategy would dictate, stay on the edges and off the corners. You can force a tie this way.</p>
-<br>
-<br>
-
-<p>Else, as usual, keep blocking until a tie is reached.</p>
-<br>
-<br>
-
-<p>Of course, this is the logic of Tic-Tac-Toe, but there are certain useful tips that can help you when playing with a good player.</p>
-<br>
-<br>
-<ul>
-<li><strong>Don't be a reactionary, impulsive player.</strong> Unless there's a time limit, take as much time as you want, thinking the move through. Don't react immediately to what your opponent is doing; Sometimes the most obvious move might not be the right one.</li>
-<li><strong>Make safe moves.</strong> Every move of yours should be dictated by strategy - In the middle of the game, the best way to make a move is to think a few moves ahead, and what your opponent might do. First consider whether a certain move can win you the game, or block the opponent from winning. If not, then make sure to always think strategy. The best way to win is to figure out how to create two ways to win at once.</li>
-<li><strong>Read this answer.</strong> Trust me - It helps.</li>
-</ul>
-<br>
-<br>
-<br>
-<br>
+            <br>
+            <br>
+            <li>If they mark a <strong>corner</strong>, as a smarter opponent would, it's a little bit more complicated. Place your next mark on the opposite corner, or the corner that would make a diagonal of two X's and one O. If they place their next piece on an edge, they've made a mistake, and you now have two ways of winning, depending on which edge they placed their O on. Otherwise, assuming you keep counter-attacking, the game will end in a tie.</li>
+        </ul>
+        <br>
+        <br>
 
 
-<p>And armed with strategy, advice, and confidence, you can beat anyone!</p>
+        <p><strong>2) Corner</strong></p>
+        <br>
+        <p>If you play a corner piece first, there are only two significant response that your opponent can make: Center, or not center.</p>
+        <br>
+        <ul>
+            <li>If their first move is <strong>away from the center</strong>, you should be able to win. Remember that your first piece is contained in both a vertical and horizontal row. Your next move should be in the other corner of the same row you placed your first piece. They'll likely counter-attack, leaving two options for you, and an easy path to victory. This will work whether they play a corner or an edge piece first up.</li>
+        </ul>
+        <br>
+        <br>
 
-	</body>
+        <p>Here's another great way to trap your opponent:</p>
+        <br>
+        <br>
+        <ul>
+            <li>If their first move is in the <strong>center</strong>, it's a little bit trickier. Again, form a diagonal. If their next move is in the corner, you can trap them by placing your next piece at the intersection of the row and column of the previous two X's. If their next move is at an edge, you'll be forced to settle for a draw.</li>
+        </ul>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p><strong>IF YOUR OPPONENT GOES FIRST...</strong></p>
+        <br>
+        <br>
+
+        <p>Unfortunately, if your opponent goes first and uses all the above techniques, there's no way that you can win. In fact, the only way you can win is if <strong>his/her first move is an edge piece.</strong> If so, carry out all the steps shown above.</p>
+        <br>
+        <br>
+        <p>So what can you do to at least bring the match to a draw, given that your opponent plays a good strategy?</p>
+        <br>
+        <br>
+        <p>Remember what we said before - Your opponent will either choose a corner or the center piece.</p>
+        <br>
+        <br>
+
+        <p><strong>1) Center</strong></p>
+        <br>
+        <br>
+        <p>If he chooses the center, place your O on the corner immediately, which will buy you some time. According to the best strategy, your opponent will place his next X on the opposite corner to yours. <em>Your next piece should not be bordering your previous move.</em> Then, it's the simple matter of continuously blocking and counter-attacking until a tie is reached.</p>
+        <br>
+        <br>
+
+        <p>Even if they don't use this strategy, keep blocking until you reach a tie.</p>
+        <br>
+        <br>
+        <p><strong>2) Corner</strong></p>
+        <br>
+        <br>
+        <p>If they mark a corner, mark the center, or you will almost certainly lose against a good opponent. Then remember that there is one outcome in which a tie is possible from above.</p>
+        <br>
+        <br>
+        <p>Your opponent has two choices, to either form a diagonal or place their next piece somewhere else. Assuming that their move forms a diagonal, as the strategy would dictate, stay on the edges and off the corners. You can force a tie this way.</p>
+        <br>
+        <br>
+
+        <p>Else, as usual, keep blocking until a tie is reached.</p>
+        <br>
+        <br>
+
+        <p>Of course, this is the logic of Tic-Tac-Toe, but there are certain useful tips that can help you when playing with a good player.</p>
+        <br>
+        <br>
+        <ul>
+            <li><strong>Don't be a reactionary, impulsive player.</strong> Unless there's a time limit, take as much time as you want, thinking the move through. Don't react immediately to what your opponent is doing; Sometimes the most obvious move might not be the right one.</li>
+            <li><strong>Make safe moves.</strong> Every move of yours should be dictated by strategy - In the middle of the game, the best way to make a move is to think a few moves ahead, and what your opponent might do. First consider whether a certain move can win you the game, or block the opponent from winning. If not, then make sure to always think strategy. The best way to win is to figure out how to create two ways to win at once.</li>
+            <li><strong>Read this answer.</strong> Trust me - It helps.</li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <p>And armed with strategy, advice, and confidence, you can beat anyone!</p>
+
+    </div>
+
+</body>
+
 </html>

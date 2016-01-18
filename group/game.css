@@ -1,0 +1,48 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
+}
+
+.cell {
+    background-color: #06F;
+    color: white;
+    font-size: 8vw;
+    font-family: Courier New, Courier, monospaced;
+    font-weight: bold;
+    width: 11vw;
+    height: 11vw;
+    min-height: 125px;
+    min-width: 125px;
+}
+
+input.cell {
+    border: none;
+    vertical-align: bottom;
+}
+
+input.cell:focus {
+    outline: none;
+}
+
+td.cell {
+    border: solid 4px #0047b3;
+}
+
+.board {
+    border: solid 1px ridge;
+    background-color: #06F;
+    margin-right: 1cm;
+}
+
+.winstat {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.player {
+    font-family: Courier New, Courier, monospaced;
+    font-weight: bold;
+    font-size: 150%;
+}

@@ -1,48 +1,68 @@
-
-body{
-	background-color: #111;
-	margin: 80px 0px;
+body {
+    background-color: #111;
+    margin: 80px 0px;
 }
 
-#ulHeader{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #777;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	margin: 0px auto;
-	font-family: "Segoe UI", arial, sans-serif;
+#ulHeader {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px auto;
+    font-family: "Segoe UI", arial, sans-serif;
 }
 
-.liHeader{
-	float: left;
-}
-li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+.liHeader {
+    float: left;
 }
 
-.liHeader:hover{
-		background-color: #111;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#active{
-	background-color:#06F;
+.liHeader:hover {
+    background-color: #111;
 }
 
-.vidtitle{
-	font-family: "Segoe UI", arial, sans-serif;
-	color: white;
-	text-align: center;
-	text-decoration: none;
+#active {
+    background-color: #06F;
 }
-.video{
-	text-align: center;
-	margin: 0 auto;
+
+.vidtitle {
+    font-family: "Segoe UI", arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.video {
+    text-align: center;
+    margin: 0 auto;
+}
+
+table#details {
+    margin-top: 30px;
+    width: 338px;
+    display: inline-block
+}
+
+table#game {
+    display: inline-block;
+    margin-left: 34px;
+}
+
+.container {
+    text-align: center;
+}
+
+div.buttons {
+    display: inline-block;
 }
