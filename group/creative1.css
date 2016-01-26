@@ -66,3 +66,7 @@ table#game {
 div.buttons {
     display: inline-block;
 }
+
+div#text {
+    text-align:left !important;
+}
