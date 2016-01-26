@@ -1,6 +1,23 @@
 <html>
  <head>
-  <title>City Finder</title>
+  <title>Utah City Weather</title>
+  <style>
+   body{
+    font-family: arial, sans-serif;
+    color: navy;
+   }
+   #background{
+    position: fixed; 
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    opacity: 0.5;
+    z-index: -1;
+   }
+   .heading{
+    border-bottom: 2px solid navy;
+   }
+  </style>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script>
    $(document).ready(function (){
@@ -57,14 +74,18 @@
   </script>
  </head>
  <body>
+  <div id="background">
+   <img src="http://www.highreshdwallpapers.com/wp-content/uploads/2014/05/Snow-Capped-Mountains.jpg">
+  </div>
+  <h1 class="heading">Utah Weather</h1>
   <form>
    Enter A Utah City: <input type="text" id="cityfield" value=""><br>
-   Suggestion: <span id="txtHint">Empty</span>
+   <br>
+   Suggestion: <span id="txtHint">Empty<br><br></span>
    <input id="button" type="submit" value="Submit">
   </form>
-  <p>City</p>
-  <textarea id="dispcity">No City</textarea>
-  <p>Current Weather</p>
-  <div id="weather">No weather</div>
+  <textarea id="dispcity" rows="1" readonly>No City</textarea>
+  <h3 class="heading">Current Weather</h3>
+  <div id="weather">No City Found</div>
  </body>
 </html>
