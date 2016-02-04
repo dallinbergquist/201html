@@ -3,17 +3,36 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
+<style>
+	#myform{		
+		padding: 14px;
+		overflow: hidden;
+		background-color: #777;
+		position: fixed;
+		top: 0;
+		left: 0;
+		margin: 0px auto;
+		width: 100%;
+		color: white;
+		font-size: 20px;
+	}
+	#button{
+		color: black;
+		font-size: 16px;
+	}
+	#location{
+		color: black;
+		font-size: 16px;
+	}
+</style>
 <body>
-	
 	<div class="container text-center">
-		<form>
+		<form id="myform">
 			Enter a city to view photos: <input type="text" id="location" value="">
 			<input id="button" type="submit" value="submit">
 		</form>
 		<span id="photos"></span>
 	</div>
-	
-
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
