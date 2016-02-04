@@ -20,7 +20,7 @@ var handlePhotos = function (photos, venue_name) {
 
 function displayPhotos(venue_name, photos){
 	console.log('photos: ', photos);
-	if (photos.length > 0) $('#photos').append('<h1>'+venue_name+'</h1>');
+	if (photos.length > 0) $('#photos').append('<h1 class="myheading">'+venue_name+'</h1>');
 	for (var i = 0; i < photos.length; i++){
 		$('#photos').append("<img  src='"+photos[i].prefix+'220x220'+photos[i].suffix+"' >");
 	}
