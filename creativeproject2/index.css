@@ -1,0 +1,10 @@
+#myform{
+ margin: 0;
+ padding: 0;
+ overflow: 0;
+ background-color: #bbb;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ margin: 0px auto;
+}
