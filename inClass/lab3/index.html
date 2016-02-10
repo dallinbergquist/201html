@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="avatar.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lab 3</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div ng-app='app' ng-controller='mainCtrl'>
+<h1>Create new user</h1>
+<form name='userForm' ng-submit='addNew(userForm)'>
+      <input placeholder='Name' ng-model='userForm.name'/>
+      <input placeholder='Image Url' ng-model='userForm.url'/>
+      <button type='submit'>Add New</button>
+</form>
+<ul>
+ <li ng-repeat='user in users'>
+  <avatar user='user'/>
+  <div class='Avatar'>
+   <h4>{{user.name}}</h4><img ng-src={{user.avatarUrl}}>
+  </div>
+ </li>
+</body>
+</html>
+
