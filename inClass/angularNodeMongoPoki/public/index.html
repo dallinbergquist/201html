@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="./javascripts/app.js"></script>
+<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>BYU Study Spots</title>
+</head>
+<body>
+
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+    <div class='mydivs' id='inputs'>
+    <h1> Enter A New Study Spot</h1>
+      <form id="newPoki" ng-submit="addPoki()">
+        Name: <input type="text" ng-model="Name" value=""><br>
+        Building: <select ng-model="Building">
+          <option value="HBLL">HBLL</option>
+          <option value="JSB">JSB</option>
+          <option value="JKB">JKB</option>
+          <option value="Wilk">Wilk</option>
+          <option value="JFSB">JFSB</option>
+        </select><br>
+        Floor: <select ng-model="Floor">
+          <option value="1st Floor">First</option>
+          <option value="2nd Floor">Second</option>
+          <option value="3rd Floor">Third</option>
+          <option value="4th Floor">Fourth</option>
+        </select><br>
+        <input type="checkbox" ng-model="Wifi">Available Wifi<br>
+        <input type="checkbox" ng-model="Cell">Cell phone service<br>
+        <input type="checkbox" ng-model="Light">Natural lighting<br>
+        <input id="Submit" type="submit" value="Submit">
+        <input id="Search" type="submit" value="Search">
+      </form>
+    </div>
+    <div ng-if='!pokemon.length' class='my divs center stretch'>
+      <h1 class='h1'>
+        Set up your endpoint at `/pokemon` to get this view working
+      </h1>
+    </div>
+    <div class='mydivs'>
+    <ul ng-if='pokemon.length' class='list center stretch'>
+      <li ng-repeat='p in pokemon' class='pokemon'>
+        <h1>{{ p.name }}</h1>
+        <h2>{{ p.building }}</h2>
+        <h2>{{ p.floor }}</h2>
+      </li>
+    </ul>
+    </div>
+  </div>
+
+</body>
+</html>

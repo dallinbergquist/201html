@@ -1,0 +1,39 @@
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+  background: url('http://www.greatvaluecolleges.net/wp-content/uploads/2014/07/37-Bringham-Young-University.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.mydivs {
+  background-color: rgba(250, 250, 250, 0.6);
+  width: 100%;
+  padding: 8px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  line-height: 20%;
+}
+
+#inputs {
+  line-height: 130%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  padding: 20px;
+}
+
+.list {
+  text-align: center;
+  list-style: none;
+}
