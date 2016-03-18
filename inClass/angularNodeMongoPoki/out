@@ -936,3 +936,138 @@ Query Worked
     wifi: true,
     cell: true } ]
 [0mGET /pokemon [36m304 [0m1.836 ms - -[0m
+[0mGET / [36m304 [0m0.673 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.615 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.468 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56e9c378f597d81254626dbe,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: 'true',
+    cell: 'false',
+    light: 'true' },
+  { _id: 56e9c378f597d81254626dbf,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: 'true',
+    cell: 'true',
+    light: 'true' },
+  { _id: 56ea3108f597d81254626dc0,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true } ]
+[0mGET /pokemon [36m304 [0m1.533 ms - -[0m
+[0mGET / [32m200 [0m0.881 ms - 1925[0m
+[0mGET /javascripts/app.js [32m200 [0m0.900 ms - 1015[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.724 ms - 648[0m
+In Pokemon
+Query Worked
+[ { _id: 56e9c378f597d81254626dbe,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: 'true',
+    cell: 'false',
+    light: 'true' },
+  { _id: 56e9c378f597d81254626dbf,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: 'true',
+    cell: 'true',
+    light: 'true' },
+  { _id: 56ea3108f597d81254626dc0,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true } ]
+[0mGET /pokemon [32m200 [0m2.292 ms - 404[0m
+[0mGET /favicon.ico [33m404 [0m41.831 ms - 1433[0m
+In Pokemon Post
+{ wifi: true, cell: false, light: false }
+Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
+  ops: 
+   [ { wifi: true,
+       cell: false,
+       light: false,
+       _id: 56eae1c0f597d81254626dc1 } ],
+  insertedCount: 1,
+  insertedIds: [ 56eae1c0f597d81254626dc1 ] }
+[0mPOST /pokemon [32m200 [0m3.351 ms - -[0m
+[0mGET / [32m200 [0m0.825 ms - 1925[0m
+[0mGET /javascripts/app.js [32m200 [0m0.705 ms - 1015[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.685 ms - 648[0m
+In Pokemon
+Query Worked
+[ { _id: 56e9c378f597d81254626dbe,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: 'true',
+    cell: 'false',
+    light: 'true' },
+  { _id: 56e9c378f597d81254626dbf,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: 'true',
+    cell: 'true',
+    light: 'true' },
+  { _id: 56ea3108f597d81254626dc0,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56eae1c0f597d81254626dc1,
+    wifi: true,
+    cell: false,
+    light: false } ]
+[0mGET /pokemon [32m200 [0m2.052 ms - 478[0m
+[0mGET /favicon.ico [33m404 [0m18.710 ms - 1433[0m
+In Pokemon Post
+{}
+Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
+  ops: [ { _id: 56eb08b2f597d81254626dc2 } ],
+  insertedCount: 1,
+  insertedIds: [ 56eb08b2f597d81254626dc2 ] }
+[0mPOST /pokemon [32m200 [0m3.468 ms - -[0m
+[0mGET / [32m200 [0m0.867 ms - 1925[0m
+[0mGET /javascripts/app.js [32m200 [0m0.842 ms - 1015[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.941 ms - 648[0m
+In Pokemon
+Query Worked
+[ { _id: 56e9c378f597d81254626dbe,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: 'true',
+    cell: 'false',
+    light: 'true' },
+  { _id: 56e9c378f597d81254626dbf,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: 'true',
+    cell: 'true',
+    light: 'true' },
+  { _id: 56ea3108f597d81254626dc0,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56eae1c0f597d81254626dc1,
+    wifi: true,
+    cell: false,
+    light: false },
+  { _id: 56eb08b2f597d81254626dc2 } ]
+[0mGET /pokemon [32m200 [0m6.318 ms - 513[0m
+[0mGET / [32m200 [0m1.300 ms - 1925[0m
+[0mGET /favicon.ico [33m404 [0m11.278 ms - 1433[0m
