@@ -15,23 +15,23 @@
       <form id="newPoki" ng-submit="addPoki()">
         Name: <input type="text" ng-model="Name" value=""><br>
         Building: <select ng-model="Building">
-          <option value="HBLL">HBLL</option>
+          <option value="HBLL" SELECTED>HBLL</option>
           <option value="JSB">JSB</option>
           <option value="JKB">JKB</option>
           <option value="Wilk">Wilk</option>
           <option value="JFSB">JFSB</option>
         </select><br>
         Floor: <select ng-model="Floor">
-          <option value="1st Floor">First</option>
-          <option value="2nd Floor">Second</option>
-          <option value="3rd Floor">Third</option>
-          <option value="4th Floor">Fourth</option>
+          <option value="1st Floor" SELECTED>1</option>
+          <option value="2nd Floor">2</option>
+          <option value="3rd Floor">3</option>
+          <option value="4th Floor">4</option>
         </select><br>
         <input type="checkbox" ng-model="Wifi">Available Wifi<br>
         <input type="checkbox" ng-model="Cell">Cell phone service<br>
         <input type="checkbox" ng-model="Light">Natural lighting<br>
-        <input id="Submit" type="submit" value="Submit">
-        <input id="Search" type="submit" value="Search">
+        <button id="Submit" type="submit">Submit</button>
+        <button ng-click="search()" id="Search" type="button">Search</button>
       </form>
     </div>
     <div ng-if='!pokemon.length' class='my divs center stretch'>

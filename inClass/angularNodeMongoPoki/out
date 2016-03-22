@@ -10,185 +10,39 @@ Inserted documents into the "pokemon" collection. The documents inserted with "_
    [ { name: 'Periodicals',
        building: 'HBLL',
        floor: '2nd Floor',
-       wifi: 'true',
-       cell: 'false',
-       light: 'true',
-       _id: 56e9c378f597d81254626dbe },
+       wifi: true,
+       cell: false,
+       light: true,
+       _id: 56f064d854fee7ec19349df5 },
      { name: 'Joseph Smith Building',
        building: 'JSB',
        floor: '1st Floor',
-       wifi: 'true',
-       cell: 'true',
-       light: 'true',
-       _id: 56e9c378f597d81254626dbf } ],
+       wifi: true,
+       cell: true,
+       light: true,
+       _id: 56f064d854fee7ec19349df6 } ],
   insertedCount: 2,
-  insertedIds: [ 56e9c378f597d81254626dbe, 56e9c378f597d81254626dbf ] }
-[0mGET / [36m304 [0m9.026 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m3.016 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m2.217 ms - -[0m
+  insertedIds: [ 56f064d854fee7ec19349df5, 56f064d854fee7ec19349df6 ] }
+[0mGET / [36m304 [0m8.854 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m2.538 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.293 ms - -[0m
 In Pokemon
 Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
+[ { _id: 56f064d854fee7ec19349df5,
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [32m200 [0m9.505 ms - 285[0m
-[0mGET / [36m304 [0m0.603 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.693 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.622 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [36m304 [0m3.517 ms - -[0m
-[0mGET / [36m304 [0m1.460 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.556 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.707 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [36m304 [0m2.078 ms - -[0m
-[0mGET / [32m200 [0m4.314 ms - 1913[0m
-[0mGET /javascripts/app.js [36m304 [0m2.230 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.752 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [36m304 [0m1.638 ms - -[0m
-[0mGET / [36m304 [0m0.921 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m1.436 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.041 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [36m304 [0m2.265 ms - -[0m
-[0mGET / [32m200 [0m1.396 ms - 1913[0m
-[0mGET /javascripts/app.js [32m200 [0m1.133 ms - 1015[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.840 ms - 632[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [32m200 [0m3.625 ms - 285[0m
-[0mGET /favicon.ico [33m404 [0m223.257 ms - 1433[0m
-[0mGET /favicon.ico [33m404 [0m46.938 ms - 1433[0m
-[0mGET / [36m304 [0m1.229 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.682 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.460 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [36m304 [0m2.291 ms - -[0m
-[0mGET /favicon.ico [33m404 [0m31.380 ms - 1433[0m
-[0mGET / [32m200 [0m1.084 ms - 1913[0m
-[0mGET /favicon.ico [33m404 [0m14.460 ms - 1433[0m
-[0mGET / [36m304 [0m2.563 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m2.010 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.579 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' } ]
-[0mGET /pokemon [36m304 [0m2.881 ms - -[0m
-[0mGET /favicon.ico [33m404 [0m18.920 ms - 1433[0m
+    wifi: true,
+    cell: true,
+    light: true } ]
+[0mGET /pokemon [32m200 [0m10.399 ms - 273[0m
 In Pokemon Post
 { name: 'Media Center',
   building: 'HBLL',
@@ -202,872 +56,556 @@ Inserted NaN documents into the "pokemon" collection. The documents inserted wit
        floor: '4th Floor',
        wifi: true,
        cell: true,
-       _id: 56ea3108f597d81254626dc0 } ],
+       _id: 56f064f254fee7ec19349df7 } ],
   insertedCount: 1,
-  insertedIds: [ 56ea3108f597d81254626dc0 ] }
-[0mPOST /pokemon [32m200 [0m16.230 ms - -[0m
-[0mGET /favicon.ico [33m404 [0m34.127 ms - 1433[0m
-[0mGET / [36m304 [0m1.481 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.154 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.496 ms - -[0m
+  insertedIds: [ 56f064f254fee7ec19349df7 ] }
+[0mPOST /pokemon [32m200 [0m16.760 ms - -[0m
+[0mGET / [36m304 [0m0.829 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.659 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.479 ms - -[0m
 In Pokemon
 Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
+[ { _id: 56f064d854fee7ec19349df5,
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
     name: 'Media Center',
     building: 'HBLL',
     floor: '4th Floor',
     wifi: true,
     cell: true } ]
-[0mGET /pokemon [32m200 [0m3.286 ms - 404[0m
-[0mGET /favicon.ico [33m404 [0m37.851 ms - 1433[0m
-[0mGET / [36m304 [0m0.909 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.519 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m1.010 ms - -[0m
+[0mGET /pokemon [32m200 [0m2.521 ms - 392[0m
+[0mGET /favicon.ico [33m404 [0m235.852 ms - 1433[0m
+[0mGET / [36m304 [0m1.322 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.174 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.516 ms - -[0m
 In Pokemon
 Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
+[ { _id: 56f064d854fee7ec19349df5,
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
     name: 'Media Center',
     building: 'HBLL',
     floor: '4th Floor',
     wifi: true,
     cell: true } ]
-[0mGET /pokemon [36m304 [0m1.735 ms - -[0m
-[0mGET / [36m304 [0m1.114 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.321 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m1.492 ms - -[0m
+[0mGET /pokemon [36m304 [0m4.236 ms - -[0m
+[0mGET / [32m200 [0m3.993 ms - 1947[0m
+[0mGET /javascripts/app.js [36m304 [0m1.061 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.812 ms - -[0m
 In Pokemon
 Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
+[ { _id: 56f064d854fee7ec19349df5,
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
     name: 'Media Center',
     building: 'HBLL',
     floor: '4th Floor',
     wifi: true,
     cell: true } ]
-[0mGET /pokemon [36m304 [0m2.973 ms - -[0m
-[0mGET / [36m304 [0m1.297 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.655 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.959 ms - 632[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.164 ms - -[0m
-[0mGET / [36m304 [0m0.588 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.578 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.931 ms - 632[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.660 ms - -[0m
-[0mGET / [36m304 [0m0.815 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.655 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.748 ms - 632[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.202 ms - -[0m
-[0mGET / [36m304 [0m0.836 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.841 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.827 ms - 654[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.404 ms - -[0m
-[0mGET / [36m304 [0m1.199 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.212 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m2.056 ms - 632[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.399 ms - -[0m
-[0mGET / [32m200 [0m0.961 ms - 1925[0m
-[0mGET /javascripts/app.js [36m304 [0m1.916 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m2.173 ms - 666[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m5.949 ms - -[0m
-[0mGET / [36m304 [0m0.963 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.342 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.632 ms - 665[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.642 ms - -[0m
-[0mGET / [36m304 [0m1.506 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.586 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.661 ms - 667[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.616 ms - -[0m
-[0mGET / [32m200 [0m0.840 ms - 1925[0m
-[0mGET /javascripts/app.js [36m304 [0m0.509 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.969 ms - 688[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.481 ms - -[0m
-[0mGET / [36m304 [0m0.592 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.575 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.748 ms - 722[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.780 ms - -[0m
-[0mGET / [36m304 [0m2.161 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.500 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.067 ms - 723[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.887 ms - -[0m
-[0mGET / [36m304 [0m0.540 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.769 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.922 ms - 710[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.709 ms - -[0m
-[0mGET / [36m304 [0m0.542 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.858 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.085 ms - 677[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m3.494 ms - -[0m
-[0mGET / [36m304 [0m0.657 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.885 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.099 ms - 632[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.824 ms - -[0m
-[0mGET / [32m200 [0m1.222 ms - 1925[0m
-[0mGET /javascripts/app.js [36m304 [0m0.644 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.653 ms - 677[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m3.392 ms - -[0m
-[0mGET / [36m304 [0m0.578 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.175 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.687 ms - 697[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.676 ms - -[0m
-[0mGET / [36m304 [0m2.296 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m1.289 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.829 ms - 698[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.016 ms - -[0m
-[0mGET / [36m304 [0m0.542 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.509 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.564 ms - 698[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.926 ms - -[0m
-[0mGET / [36m304 [0m1.144 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.535 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.735 ms - 698[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.577 ms - -[0m
-[0mGET / [36m304 [0m0.581 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.566 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m6.396 ms - 713[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m3.909 ms - -[0m
-[0mGET / [36m304 [0m1.496 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.645 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.350 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m2.633 ms - -[0m
-[0mGET / [36m304 [0m0.655 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.655 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m2.534 ms - 743[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.503 ms - -[0m
-[0mGET / [36m304 [0m0.539 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.645 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.335 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.476 ms - -[0m
-[0mGET / [36m304 [0m1.137 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.517 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.641 ms - 647[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.599 ms - -[0m
-[0mGET / [36m304 [0m0.660 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.566 ms - -[0m
-[0mGET /stylesheets/style.css [32m200 [0m2.280 ms - 648[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.836 ms - -[0m
-[0mGET / [36m304 [0m0.673 ms - -[0m
-[0mGET /javascripts/app.js [36m304 [0m0.615 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.468 ms - -[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [36m304 [0m1.533 ms - -[0m
-[0mGET / [32m200 [0m0.881 ms - 1925[0m
-[0mGET /javascripts/app.js [32m200 [0m0.900 ms - 1015[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.724 ms - 648[0m
-In Pokemon
-Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
-    name: 'Periodicals',
-    building: 'HBLL',
-    floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
-    name: 'Joseph Smith Building',
-    building: 'JSB',
-    floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
-    name: 'Media Center',
-    building: 'HBLL',
-    floor: '4th Floor',
-    wifi: true,
-    cell: true } ]
-[0mGET /pokemon [32m200 [0m2.292 ms - 404[0m
-[0mGET /favicon.ico [33m404 [0m41.831 ms - 1433[0m
+[0mGET /pokemon [36m304 [0m3.141 ms - -[0m
 In Pokemon Post
-{ wifi: true, cell: false, light: false }
+{ name: 'Joseph Smith Atrium',
+  building: 'JSB',
+  floor: '1st Floor',
+  wifi: true,
+  cell: true,
+  light: true }
 Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
   ops: 
-   [ { wifi: true,
-       cell: false,
-       light: false,
-       _id: 56eae1c0f597d81254626dc1 } ],
+   [ { name: 'Joseph Smith Atrium',
+       building: 'JSB',
+       floor: '1st Floor',
+       wifi: true,
+       cell: true,
+       light: true,
+       _id: 56f0838154fee7ec19349df8 } ],
   insertedCount: 1,
-  insertedIds: [ 56eae1c0f597d81254626dc1 ] }
-[0mPOST /pokemon [32m200 [0m3.351 ms - -[0m
-[0mGET / [32m200 [0m0.825 ms - 1925[0m
-[0mGET /javascripts/app.js [32m200 [0m0.705 ms - 1015[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.685 ms - 648[0m
+  insertedIds: [ 56f0838154fee7ec19349df8 ] }
+[0mPOST /pokemon [32m200 [0m3.294 ms - -[0m
+[0mGET / [36m304 [0m1.024 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.525 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.887 ms - -[0m
 In Pokemon
 Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
+[ { _id: 56f064d854fee7ec19349df5,
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
     name: 'Media Center',
     building: 'HBLL',
     floor: '4th Floor',
     wifi: true,
     cell: true },
-  { _id: 56eae1c0f597d81254626dc1,
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true } ]
+[0mGET /pokemon [32m200 [0m2.985 ms - 530[0m
+[0mGET / [32m200 [0m1.554 ms - 1947[0m
+[0mGET /javascripts/app.js [36m304 [0m0.670 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.746 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56f064d854fee7ec19349df5,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
     wifi: true,
     cell: false,
-    light: false } ]
-[0mGET /pokemon [32m200 [0m2.052 ms - 478[0m
-[0mGET /favicon.ico [33m404 [0m18.710 ms - 1433[0m
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true } ]
+[0mGET /pokemon [36m304 [0m3.228 ms - -[0m
+[0mGET / [32m200 [0m1.497 ms - 1947[0m
+[0mGET /javascripts/app.js [36m304 [0m1.639 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.584 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56f064d854fee7ec19349df5,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true } ]
+[0mGET /pokemon [36m304 [0m3.385 ms - -[0m
 In Pokemon Post
-{}
+{ name: 'Snack Zone',
+  building: 'HBLL',
+  floor: '2nd Floor',
+  wifi: true,
+  cell: true,
+  light: true }
 Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
-  ops: [ { _id: 56eb08b2f597d81254626dc2 } ],
+  ops: 
+   [ { name: 'Snack Zone',
+       building: 'HBLL',
+       floor: '2nd Floor',
+       wifi: true,
+       cell: true,
+       light: true,
+       _id: 56f0846154fee7ec19349df9 } ],
   insertedCount: 1,
-  insertedIds: [ 56eb08b2f597d81254626dc2 ] }
-[0mPOST /pokemon [32m200 [0m3.468 ms - -[0m
-[0mGET / [32m200 [0m0.867 ms - 1925[0m
-[0mGET /javascripts/app.js [32m200 [0m0.842 ms - 1015[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.941 ms - 648[0m
+  insertedIds: [ 56f0846154fee7ec19349df9 ] }
+[0mPOST /pokemon [32m200 [0m4.190 ms - -[0m
+In Pokemon Post
+{ name: 'Snack Zone',
+  building: 'HBLL',
+  floor: '2nd Floor',
+  wifi: true,
+  cell: true,
+  light: true }
+Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
+  ops: 
+   [ { name: 'Snack Zone',
+       building: 'HBLL',
+       floor: '2nd Floor',
+       wifi: true,
+       cell: true,
+       light: true,
+       _id: 56f0846f54fee7ec19349dfa } ],
+  insertedCount: 1,
+  insertedIds: [ 56f0846f54fee7ec19349dfa ] }
+[0mPOST /pokemon [32m200 [0m1.853 ms - -[0m
+[0mGET / [32m200 [0m1.702 ms - 1947[0m
+[0mGET /javascripts/app.js [36m304 [0m1.478 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.698 ms - -[0m
 In Pokemon
 Query Worked
-[ { _id: 56e9c378f597d81254626dbe,
+[ { _id: 56f064d854fee7ec19349df5,
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true' },
-  { _id: 56e9c378f597d81254626dbf,
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true' },
-  { _id: 56ea3108f597d81254626dc0,
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
     name: 'Media Center',
     building: 'HBLL',
     floor: '4th Floor',
     wifi: true,
     cell: true },
-  { _id: 56eae1c0f597d81254626dc1,
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846154fee7ec19349df9,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846f54fee7ec19349dfa,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true } ]
+[0mGET /pokemon [32m200 [0m2.716 ms - 790[0m
+In Pokemon Post
+{ name: 'JKB',
+  building: 'JKB',
+  floor: '2nd Floor',
+  wifi: true,
+  cell: true }
+Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
+  ops: 
+   [ { name: 'JKB',
+       building: 'JKB',
+       floor: '2nd Floor',
+       wifi: true,
+       cell: true,
+       _id: 56f0858254fee7ec19349dfb } ],
+  insertedCount: 1,
+  insertedIds: [ 56f0858254fee7ec19349dfb ] }
+[0mPOST /pokemon [32m200 [0m2.012 ms - -[0m
+[0mGET / [32m200 [0m1.125 ms - 1947[0m
+[0mGET /javascripts/app.js [32m200 [0m2.759 ms - 1427[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.548 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56f064d854fee7ec19349df5,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
     wifi: true,
     cell: false,
-    light: false },
-  { _id: 56eb08b2f597d81254626dc2 } ]
-[0mGET /pokemon [32m200 [0m6.318 ms - 513[0m
-[0mGET / [32m200 [0m1.300 ms - 1925[0m
-[0mGET /favicon.ico [33m404 [0m11.278 ms - 1433[0m
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846154fee7ec19349df9,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846f54fee7ec19349dfa,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0858254fee7ec19349dfb,
+    name: 'JKB',
+    building: 'JKB',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true } ]
+[0mGET /pokemon [32m200 [0m4.520 ms - 899[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.591 ms - -[0m
+In Pokemon Post
+{ name: 'JKB' }
+Inserted NaN documents into the "pokemon" collection. The documents inserted with "_id" are: { result: { ok: 1, n: 1 },
+  ops: [ { name: 'JKB', _id: 56f089fe54fee7ec19349dfc } ],
+  insertedCount: 1,
+  insertedIds: [ 56f089fe54fee7ec19349dfc ] }
+[0mPOST /pokemon [32m200 [0m5.291 ms - -[0m
+[0mGET / [36m304 [0m0.583 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m1.101 ms - 1161[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.516 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56f064d854fee7ec19349df5,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846154fee7ec19349df9,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846f54fee7ec19349dfa,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0858254fee7ec19349dfb,
+    name: 'JKB',
+    building: 'JKB',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f089fe54fee7ec19349dfc, name: 'JKB' } ]
+[0mGET /pokemon [32m200 [0m4.026 ms - 947[0m
+[0mGET / [36m304 [0m0.666 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.874 ms - 1259[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.558 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56f064d854fee7ec19349df5,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846154fee7ec19349df9,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846f54fee7ec19349dfa,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0858254fee7ec19349dfb,
+    name: 'JKB',
+    building: 'JKB',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f089fe54fee7ec19349dfc, name: 'JKB' } ]
+[0mGET /pokemon [36m304 [0m2.732 ms - -[0m
+[0mGET / [36m304 [0m0.845 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.824 ms - 1481[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.430 ms - -[0m
+[0mGET / [36m304 [0m0.697 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m1.640 ms - 1482[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.844 ms - -[0m
+[0mGET / [36m304 [0m0.622 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m1.601 ms - 1488[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.568 ms - -[0m
+[0mGET / [36m304 [0m0.676 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m1.036 ms - 1488[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.537 ms - -[0m
+[0mGET / [36m304 [0m0.570 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.599 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m1.883 ms - 1489[0m
+[0mGET / [36m304 [0m0.575 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m2.658 ms - 1491[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.534 ms - -[0m
+[0mGET / [36m304 [0m0.975 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m2.769 ms - 1489[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.408 ms - -[0m
+[0mGET / [36m304 [0m0.681 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m3.821 ms - 1577[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.708 ms - -[0m
+[0mGET / [36m304 [0m1.133 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.902 ms - 1578[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.124 ms - -[0m
+[0mGET / [36m304 [0m0.615 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.868 ms - 1299[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.439 ms - -[0m
+In Pokemon
+Query Worked
+[ { _id: 56f064d854fee7ec19349df5,
+    name: 'Periodicals',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: false,
+    light: true },
+  { _id: 56f064d854fee7ec19349df6,
+    name: 'Joseph Smith Building',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f064f254fee7ec19349df7,
+    name: 'Media Center',
+    building: 'HBLL',
+    floor: '4th Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f0838154fee7ec19349df8,
+    name: 'Joseph Smith Atrium',
+    building: 'JSB',
+    floor: '1st Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846154fee7ec19349df9,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0846f54fee7ec19349dfa,
+    name: 'Snack Zone',
+    building: 'HBLL',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true,
+    light: true },
+  { _id: 56f0858254fee7ec19349dfb,
+    name: 'JKB',
+    building: 'JKB',
+    floor: '2nd Floor',
+    wifi: true,
+    cell: true },
+  { _id: 56f089fe54fee7ec19349dfc, name: 'JKB' } ]
+[0mGET /pokemon [36m304 [0m2.131 ms - -[0m

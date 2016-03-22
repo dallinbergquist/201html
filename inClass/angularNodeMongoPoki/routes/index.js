@@ -10,7 +10,7 @@ var MongoClient = mongodb.MongoClient;
 var dbUrl = 'mongodb://localhost:27017/pokemon';
 
 // we will use this variable later to insert and retrieve a "collection" of data
-var collection
+var coll
 
 // Use connect method to connect to the Server
 MongoClient.connect(dbUrl, function (err, db) {
@@ -21,9 +21,9 @@ MongoClient.connect(dbUrl, function (err, db) {
     console.log('Connection established to', dbUrl);
 
     // do some work here with the database.
-    collection = db.collection('pokemon');
-    //collection.remove(); // Remove anything that was there before
-    collection.insert(pokemon, function (err, result) {
+    coll = db.collection('pokemon');
+    coll.remove(); // Remove anything that was there before
+    coll.insert(pokemon, function (err, result) {
       if (err) {
         console.log(err);
       } else {
@@ -40,7 +40,7 @@ router.get('/', function(req, res) {
 
 router.get('/pokemon', function(req, res) {
   console.log("In Pokemon");
-  collection.find().toArray(function(err, result) {
+  coll.find().toArray(function(err, result) {
     if(err) {
       console.log(err);
     } else if (result.length) {
@@ -53,10 +53,24 @@ router.get('/pokemon', function(req, res) {
   });
 });
 
+router.search('/pokemon',  function(name, building, floor, wifi, cell, light, res){
+  console.log("In pokemon");
+  coll.find( {"name": name, "building": building, "floor": floor, "wifi": wifi, "cell": cell, "light": light } ).toArray(function(err, result) {
+    if(err) {
+      console.log(err)
+    } else if (result.length) {
+      console.log("Query worked");
+      console.log(result);
+    } else {
+      console.log("No matches found with name: ",name,"building: ",building,"floor: ",floor,"wifi :",wifi,"cell: ",cell,"light: ",light);
+    }
+  });
+});
+
 router.post('/pokemon', function(req, res) {
     console.log("In Pokemon Post");
     console.log(req.body);
-    collection.insert(req.body, function (err, result) {
+    coll.insert(req.body, function (err, result) {
       if (err) {
         console.log(err);
       } else {
@@ -68,24 +82,24 @@ router.post('/pokemon', function(req, res) {
 
 module.exports = router;
 
-/**
- * This array of pokemon will represent a piece of data in our 'database'
+
+// * This array of pokemon will represent a piece of data in our 'database'
 
 var pokemon = [
   {
     name: 'Periodicals',
     building: 'HBLL',
     floor: '2nd Floor',
-    wifi: 'true',
-    cell: 'false',
-    light: 'true'
+    wifi: true,
+    cell: false,
+    light: true
   },
   {
     name: 'Joseph Smith Building',
     building: 'JSB',
     floor: '1st Floor',
-    wifi: 'true',
-    cell: 'true',
-    light: 'true'
+    wifi: true,
+    cell: true,
+    light: true
   }
-];*/
+];

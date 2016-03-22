@@ -6,3 +6,98 @@ nohup: ignoring input
 Connected
 [0mGET / [36m304 [0m7.068 ms - -[0m
 [0mGET /javascripts/comments.js [36m304 [0m1.549 ms - -[0m
+[0mGET / [36m304 [0m0.699 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.369 ms - -[0m
+[0mGET / [36m304 [0m0.341 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.301 ms - -[0m
+In the GET route?
+[ { __v: 0,
+    Comment: 'Rules',
+    Name: 'BYU',
+    _id: 56e1a6ad783a3ffd6e43a168 },
+  { __v: 0,
+    Comment: 'Bergquist',
+    Name: 'Dallin',
+    _id: 56e1aa1b0aaf797b6f600afc },
+  { __v: 0,
+    Comment: 'How are you?',
+    Name: 'Me',
+    _id: 56e1b2075d2271e2712a9fa7 },
+  { __v: 0,
+    Comment: 'This is great. Still working!',
+    Name: 'Who?',
+    _id: 56e1d1dc5d2271e2712a9fa8 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1d1e75d2271e2712a9fa9 },
+  { __v: 0,
+    Comment: 'mouse',
+    Name: 'mickey',
+    _id: 56ec33c6e96648e179413fad } ]
+[0mGET /comment [36m304 [0m21.152 ms - -[0m
+[0mGET / [32m200 [0m2.496 ms - 598[0m
+[0mGET /javascripts/comments.js [32m200 [0m1.181 ms - 896[0m
+[0mGET /favicon.ico [33m404 [0m331.745 ms - 2090[0m
+[0mGET / [36m304 [0m0.905 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.477 ms - -[0m
+In the GET route?
+[ { __v: 0,
+    Comment: 'Rules',
+    Name: 'BYU',
+    _id: 56e1a6ad783a3ffd6e43a168 },
+  { __v: 0,
+    Comment: 'Bergquist',
+    Name: 'Dallin',
+    _id: 56e1aa1b0aaf797b6f600afc },
+  { __v: 0,
+    Comment: 'How are you?',
+    Name: 'Me',
+    _id: 56e1b2075d2271e2712a9fa7 },
+  { __v: 0,
+    Comment: 'This is great. Still working!',
+    Name: 'Who?',
+    _id: 56e1d1dc5d2271e2712a9fa8 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1d1e75d2271e2712a9fa9 },
+  { __v: 0,
+    Comment: 'mouse',
+    Name: 'mickey',
+    _id: 56ec33c6e96648e179413fad } ]
+[0mGET /comment [32m200 [0m7.461 ms - 478[0m
+POST comment route
+{ Name: 'Jordan', Comment: 'Hello from the TA!' }
+{ _id: 56ec38f6f2d3def979a3e2e5,
+  Comment: 'Hello from the TA!',
+  Name: 'Jordan' }
+{ _id: 56ec38f6f2d3def979a3e2e5,
+  Comment: 'Hello from the TA!',
+  Name: 'Jordan',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m28.047 ms - 2[0m
+In the GET route?
+[ { __v: 0,
+    Comment: 'Rules',
+    Name: 'BYU',
+    _id: 56e1a6ad783a3ffd6e43a168 },
+  { __v: 0,
+    Comment: 'Bergquist',
+    Name: 'Dallin',
+    _id: 56e1aa1b0aaf797b6f600afc },
+  { __v: 0,
+    Comment: 'How are you?',
+    Name: 'Me',
+    _id: 56e1b2075d2271e2712a9fa7 },
+  { __v: 0,
+    Comment: 'This is great. Still working!',
+    Name: 'Who?',
+    _id: 56e1d1dc5d2271e2712a9fa8 },
+  { __v: 0, Comment: '', Name: '', _id: 56e1d1e75d2271e2712a9fa9 },
+  { __v: 0,
+    Comment: 'mouse',
+    Name: 'mickey',
+    _id: 56ec33c6e96648e179413fad },
+  { __v: 0,
+    Comment: 'Hello from the TA!',
+    Name: 'Jordan',
+    _id: 56ec38f6f2d3def979a3e2e5 } ]
+[0mGET /comment [32m200 [0m4.657 ms - 568[0m
+[0mGET / [36m304 [0m0.500 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.501 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m39.730 ms - 2090[0m
