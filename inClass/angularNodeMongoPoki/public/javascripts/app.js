@@ -1,7 +1,6 @@
-var app = window.angular.module('app', []);
-
+var app = window.angular.module('TabsApp', [])
 app.factory('pokemonFetcher', pokemonFetcher)
-app.controller('mainCtrl', mainCtrl)
+app.controller('TabsCtrl', TabsCtrl)
 
 function pokemonFetcher ($http) {
 
@@ -31,8 +30,27 @@ function pokemonFetcher ($http) {
   }
 }
 
-function mainCtrl ($scope, pokemonFetcher) {
+function TabsCtrl ($scope, pokemonFetcher) {
+	$scope.tabs = [{
+            title: 'Find a Study Spot',
+            url: 'one.tpl.html'
+        }, {
+            title: 'Add a Study Spot',
+            url: 'two.tpl.html'
+        }, {
+            title: 'Login',
+            url: 'three.tpl.html'
+    }];
 
+    $scope.currentTab = 'one.tpl.html';
+
+    $scope.onClickTab = function (tab) {
+        $scope.currentTab = tab.url;
+    }
+    
+    $scope.isActiveTab = function(tabUrl) {
+        return tabUrl == $scope.currentTab;
+    }
   $scope.pokemon = []
 
   pokemonFetcher.get()
