@@ -1,39 +1,31 @@
-
-html, body, #app {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+html{
   font-family: helvetica;
-  background: url('http://www.greatvaluecolleges.net/wp-content/uploads/2014/07/37-Bringham-Young-University.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color:#002255;
+  color:#A7A9AC;
 }
 
-.mydivs {
-  background-color: rgba(250, 250, 250, 0.6);
-  width: 100%;
-  padding: 8px;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  line-height: 20%;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
-#inputs {
-  line-height: 130%;
+li {
+    float: left;
+    border: 1px solid #000;
+    border-bottom-width: 0;
+    margin: 3px 3px 0px 3px;
+    padding: 5px 5px 0px 5px;
+   background-color:#A7A9AC;
+  color:#002255;
 }
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+#mainView {
+    border: 1px solid black;
+	clear: both;
+	padding: 0 1em;
 }
-
-.pokemon {
-  padding: 20px;
+.Search{
+  padding-bottom:10px;
 }
-
-.list {
-  text-align: center;
-  list-style: none;
+.submit{
+  padding-bottom:10px;
 }
